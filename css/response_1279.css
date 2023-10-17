@@ -1,0 +1,450 @@
+@media print,
+(max-width: 1279px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 15px;
+        --font_size_title: 80px;
+    }
+
+
+    html.custom_scroll ::-webkit-scrollbar
+    {
+        width: 5px;
+        height: 5px;
+    }
+
+
+    .block
+    {
+        margin-bottom: 80px;
+    }
+
+
+    .swiper-button-next,
+    .swiper-button-prev
+    {
+        width: 52px;
+        height: 52px;
+    }
+
+    .swiper-button-prev
+    {
+        left: 20px;
+    }
+
+    .swiper-button-next
+    {
+        right: 20px;
+    }
+
+    .swiper-button-next .icon,
+    .swiper-button-prev .icon
+    {
+        width: 15px;
+        height: 26px;
+    }
+
+
+
+    /*--------------
+        ButtonUp
+    --------------*/
+    .buttonUp
+    {
+        margin-top: -40px;
+    }
+
+
+
+    /*--------------
+        All link
+    --------------*/
+    .all_link a
+    {
+        font-size: 24px;
+    }
+
+
+
+    /*--------------
+        BG light
+    --------------*/
+    .bg_light
+    {
+        padding-top: 80px;
+    }
+
+
+
+    /*------------
+        Cookie
+    ------------*/
+    .cookie .text
+    {
+        width: calc(100% - 148px);
+        max-width: 100%;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .menu
+    {
+        margin-left: 60px;
+    }
+
+
+    header .menu_item + .menu_item
+    {
+        margin-left: 40px;
+    }
+
+
+    header .menu_item .btn
+    {
+        font-size: 17px;
+    }
+
+
+    header .phone a
+    {
+        font-size: 20px;
+    }
+
+
+    header .socials
+    {
+        margin-left: 24px;
+    }
+
+
+    header .order_btn
+    {
+        padding: 6px 19px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_title
+    {
+        font-size: 90px;
+
+        padding: 0 20px;
+    }
+
+
+
+    /*-------------
+        Results
+    -------------*/
+    .results .categories
+    {
+        font-size: 22px;
+
+        margin-bottom: 48px;
+    }
+
+
+    .results .categories .btn
+    {
+        margin: 0 12px;
+    }
+
+
+
+    .results .filter
+    {
+        font-size: 22px;
+
+        margin-left: -24px;
+    }
+
+    .results .filter > *
+    {
+        margin-left: 24px;
+    }
+
+
+
+    .results .wheelSlider-container
+    {
+        width: 300px;
+    }
+
+
+
+    .results .row
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+    .results .row > *
+    {
+        width: calc(33.333% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+
+    /*-------------
+        Answers
+    -------------*/
+    .answers .swiper-slide
+    {
+        width: 260px;
+    }
+
+
+    .answers .row
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+    .answers .row > *
+    {
+        width: calc(33.333% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+    .answers .item .name
+    {
+        font-size: 19px;
+    }
+
+
+
+    /*----------
+        Team
+    ----------*/
+    .team
+    {
+        padding-top: 60px;
+    }
+
+
+    .team .data
+    {
+        margin-top: -72px;
+    }
+
+
+    .team .person
+    {
+        padding: 8px 16px;
+    }
+
+
+    .team .person3
+    {
+        left: 45.161%;
+    }
+
+    .team .person5
+    {
+        left: 85.472%;
+    }
+
+
+
+    /*------------
+        Prices
+    ------------*/
+    .prices .row
+    {
+        width: 540px;
+    }
+
+    .prices .row > *
+    {
+        width: 213px;
+    }
+
+
+    .prices .label
+    {
+        font-size: 20px;
+    }
+
+
+    .prices .val
+    {
+        font-size: 32px;
+    }
+
+    .prices .val:after
+    {
+        right: -21px;
+
+        width: 42px;
+        height: 42px;
+        margin-top: -21px;
+    }
+
+
+
+    /*-----------------
+        Person info
+    -----------------*/
+    .person_info .links
+    {
+        font-size: 22px;
+
+        margin-bottom: 60px;
+    }
+
+
+    .person_info .links .btn
+    {
+        margin: 0 12px;
+    }
+
+
+
+    .person_info .person
+    {
+        width: 320px;
+    }
+
+
+    .person_info .person .info
+    {
+        font-size: 20px;
+
+        padding: 48px;
+    }
+
+
+    .person_info .person .prev_link,
+    .person_info .person .next_link
+    {
+        width: 52px;
+        height: 52px;
+    }
+
+    .person_info .person .prev_link .icon,
+    .person_info .person .next_link .icon
+    {
+        width: 15px;
+        height: 26px;
+    }
+
+
+
+    /*---------------
+        Work info
+    ---------------*/
+    .work_info .bg
+    {
+        padding: 80px 26px 48px;
+    }
+
+    .work_info .bg > * + *
+    {
+        margin-top: 80px;
+    }
+
+
+
+    .work_info .features
+    {
+        width: 720px;
+    }
+
+
+    .work_info .features .title
+    {
+        font-size: 40px;
+    }
+
+
+    .work_info .features .desc
+    {
+        font-size: 20px;
+    }
+
+
+    .work_info .features .item
+    {
+        font-size: 24px;
+    }
+
+
+    .work_info .features .item .label
+    {
+        width: 280px;
+    }
+
+
+    .work_info .features .item .val
+    {
+        width: calc(100% - 280px);
+    }
+
+
+
+    .work_info .quot
+    {
+        font-size: 40px;
+
+        width: 560px;
+        margin-top: 80px;
+        padding: 80px 0;
+    }
+
+
+    .work_info .quot:before,
+    .work_info .quot:after
+    {
+        width: 60px;
+        height: 60px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .menu
+    {
+        font-size: 18px;
+    }
+
+    footer .menu > * + *
+    {
+        margin-left: 48px;
+    }
+
+
+
+    footer .location .address
+    {
+        font-size: 20px;
+    }
+
+
+
+    footer .phone
+    {
+        font-size: 20px;
+    }
+
+
+    footer .socials
+    {
+        margin-left: 24px;
+    }
+}

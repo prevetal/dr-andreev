@@ -1,0 +1,464 @@
+@media print,
+(max-width: 1023px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 15px;
+        --font_size_title: 72px;
+    }
+
+
+    .swiper-button-next,
+    .swiper-button-prev
+    {
+        width: 48px;
+        height: 48px;
+    }
+
+    .swiper-button-prev
+    {
+        left: 13px;
+    }
+
+    .swiper-button-next
+    {
+        right: 13px;
+    }
+
+
+
+    /*------------
+        Cookie
+    ------------*/
+    .cookie
+    {
+        line-height: 21px;
+    }
+
+
+
+    /*--------------
+        ButtonUp
+    --------------*/
+    .buttonUp
+    {
+        margin-top: 24px;
+    }
+
+
+    .buttonUp .btn .icon
+    {
+        width: 40px;
+        height: 23px;
+        margin: 0 auto 12px;
+    }
+
+
+
+    /*--------------
+        All link
+    --------------*/
+    .all_link a
+    {
+        font-size: 22px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        position: fixed;
+        z-index: 101;
+        top: 0;
+        left: 0;
+
+        width: 325px;
+        height: 100%;
+        min-height: -moz-available;
+        min-height: -webkit-fill-available;
+        min-height:         fill-available;
+        margin: 0;
+        padding: 0;
+
+        transition: transform .3s linear;
+        transform: translateX(-100%);
+
+        background: var(--bg);
+    }
+
+    header.show
+    {
+        transform: translateX(0);
+    }
+
+
+    header .scroll
+    {
+        display: flex;
+        overflow: auto;
+
+        height: 100%;
+        min-height: -moz-available;
+        min-height: -webkit-fill-available;
+        min-height:         fill-available;
+        padding: 20px 10px;
+
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-content: flex-start;
+        flex-wrap: wrap;
+        overscroll-behavior-y: contain;
+    }
+
+    header .scroll > *
+    {
+        width: 100%;
+    }
+
+
+    header .logo
+    {
+        display: none;
+    }
+
+
+    header .menu
+    {
+        display: block;
+
+        width: 100%;
+        margin: 0 0 40px;
+    }
+
+    header .menu_item + .menu_item
+    {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+
+    header .phone
+    {
+        margin-left: 0;
+    }
+
+
+    header .order_btn
+    {
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 0;
+        padding: 7px 23px;
+    }
+
+
+
+    /*-----------------
+        Mob. header
+    -----------------*/
+    .mob_header
+    {
+        display: block;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_title
+    {
+        font-size: 80px;
+
+        padding: 0 10px;
+    }
+
+
+
+    /*-------------
+        Results
+    -------------*/
+    .results .categories
+    {
+        font-size: 20px;
+    }
+
+
+
+    .results .filter
+    {
+        font-size: 20px;
+
+        margin-bottom: 24px;
+    }
+
+
+
+    .results .wheelSlider-container
+    {
+        width: 260px;
+    }
+
+
+
+    /*-------------
+        Reviews
+    -------------*/
+    .reviews .grid
+    {
+        margin-bottom: -12px;
+        margin-left: -12px;
+    }
+
+
+    .reviews .item
+    {
+        margin-bottom: 12px;
+        margin-left: 12px;
+    }
+
+    .reviews .item:nth-child(1),
+    .reviews .item:nth-child(5)
+    {
+        width: calc(44% - 12px);
+    }
+
+    .reviews .item:nth-child(2),
+    .reviews .item:nth-child(4)
+    {
+        width: calc(22% - 12px);
+    }
+
+    .reviews .item:nth-child(3)
+    {
+        width: calc(34% - 12px);
+    }
+
+    .reviews .item:nth-child(6),
+    .reviews .item:nth-child(7),
+    .reviews .item:nth-child(8)
+    {
+        width: calc(28% - 12px);
+    }
+
+
+    .reviews .item img
+    {
+        width: 100%;
+    }
+
+
+
+    /*-------------
+        Answers
+    -------------*/
+    .answers .swiper-slide
+    {
+        width: 252px;
+    }
+
+
+    .answers .item .name
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*----------
+        Team
+    ----------*/
+    .team .data
+    {
+        margin-top: -60px;
+    }
+
+
+
+    .team .person
+    {
+        font-size: 13px;
+        line-height: 17px;
+
+        padding: 6px 12px;
+    }
+
+    .team .person1,
+    .team .person2,
+    .team .person3
+    {
+        top: 58.43%;
+    }
+
+    .team .person4
+    {
+        top: 45.075%;
+    }
+
+    .team .person5
+    {
+        top: 45.075%;
+        right: 0;
+        left: auto;
+    }
+
+
+
+    /*------------
+        Prices
+    ------------*/
+    .prices .row
+    {
+        width: 440px;
+    }
+
+    .prices .row > *
+    {
+        width: 190px;
+    }
+
+
+    .prices .label
+    {
+        font-size: 19px;
+    }
+
+
+    .prices .val
+    {
+        font-size: 28px;
+    }
+
+    .prices .val:after
+    {
+        right: -20px;
+
+        width: 40px;
+        height: 40px;
+        margin-top: -20px;
+    }
+
+
+
+    /*-----------------
+        Person info
+    -----------------*/
+    .person_info .links
+    {
+        font-size: 20px;
+
+        margin-bottom: 48px;
+    }
+
+
+
+    .person_info .person
+    {
+        width: 280px;
+    }
+
+
+    .person_info .person .info
+    {
+        font-size: 18px;
+
+        padding: 24px;
+    }
+
+
+    .person_info .person .prev_link,
+    .person_info .person .next_link
+    {
+        width: 48px;
+        height: 48px;
+    }
+
+
+
+    /*---------------
+        Work info
+    ---------------*/
+    .work_info .slider .thumbs
+    {
+        margin-top: 32px;
+    }
+
+    .work_info .slider .thumbs .image img
+    {
+        height: 160px;
+    }
+
+
+
+    .work_info .bg
+    {
+        padding: 68px 13px 48px;
+    }
+
+    .work_info .bg > * + *
+    {
+        margin-top: 68px;
+    }
+
+
+
+    .work_info .features
+    {
+        width: 100%;
+    }
+
+
+    .work_info .features .title
+    {
+        font-size: 36px;
+    }
+
+
+    .work_info .features .desc
+    {
+        font-size: 18px;
+    }
+
+
+    .work_info .features .item
+    {
+        font-size: 21px;
+    }
+
+
+    .work_info .features .item .label
+    {
+        width: 240px;
+    }
+
+
+    .work_info .features .item .val
+    {
+        width: calc(100% - 240px);
+    }
+
+
+
+    .work_info .quot
+    {
+        font-size: 36px;
+
+        width: 504px;
+        margin-top: 80px;
+        padding: 68px 0;
+    }
+
+
+    .work_info .quot:before,
+    .work_info .quot:after
+    {
+        width: 48px;
+        height: 48px;
+    }
+}

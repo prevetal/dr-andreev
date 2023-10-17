@@ -1,0 +1,464 @@
+@media print,
+(max-width: 1439px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size_title: 88px;
+    }
+
+
+    .block
+    {
+        margin-bottom: 88px;
+    }
+
+
+    .swiper-button-next,
+    .swiper-button-prev
+    {
+        width: 60px;
+        height: 60px;
+    }
+
+    .swiper-button-prev
+    {
+        left: 24px;
+    }
+
+    .swiper-button-next
+    {
+        right: 24px;
+    }
+
+    .swiper-button-next .icon,
+    .swiper-button-prev .icon
+    {
+        width: 18px;
+        height: 30px;
+    }
+
+
+
+    /*--------------
+        ButtonUp
+    --------------*/
+    .buttonUp
+    {
+        margin-top: -60px;
+    }
+
+
+    .buttonUp .btn .icon
+    {
+        width: 60px;
+        height: 34px;
+        margin-bottom: 16px;
+    }
+
+
+
+    /*--------------
+        All link
+    --------------*/
+    .all_link
+    {
+        margin-top: 48px;
+    }
+
+
+    .all_link a
+    {
+        font-size: 26px;
+    }
+
+
+
+    /*--------------
+        BG light
+    --------------*/
+    .bg_light
+    {
+        padding-top: 88px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding: 24px 0;
+    }
+
+
+    header .menu
+    {
+        margin-left: 72px;
+    }
+
+
+    header .menu_item + .menu_item
+    {
+        margin-left: 64px;
+    }
+
+
+    header .menu_item .btn
+    {
+        font-size: 20px;
+    }
+
+
+    header .phone a
+    {
+        font-size: 22px;
+    }
+
+
+    header .socials
+    {
+        margin-left: 24px;
+    }
+
+
+    header .order_btn
+    {
+        font-size: 13px;
+        line-height: 23px;
+
+        margin-left: 24px;
+        padding: 7px 23px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_title
+    {
+        font-size: 100px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head .title
+    {
+        padding: 0;
+    }
+
+
+
+    /*-------------
+        Results
+    -------------*/
+    .results .categories
+    {
+        font-size: 26px;
+
+        margin-bottom: 60px;
+    }
+
+
+    .results .categories .btn
+    {
+        margin: 0 20px;
+    }
+
+
+
+    .results .filter
+    {
+        font-size: 26px;
+
+        margin-left: -40px;
+    }
+
+    .results .filter > *
+    {
+        margin-left: 40px;
+    }
+
+
+
+    .results .wheelSlider-container
+    {
+        width: 360px;
+    }
+
+
+
+    .results .row
+    {
+        margin-bottom: -40px;
+        margin-left: -40px;
+    }
+
+    .results .row > *
+    {
+        width: calc(33.333% - 40px);
+        margin-bottom: 40px;
+        margin-left: 40px;
+    }
+
+
+
+    /*-------------
+        Answers
+    -------------*/
+    .answers .swiper-slide
+    {
+        width: 280px;
+    }
+
+
+    .answers .row
+    {
+        margin-bottom: -40px;
+        margin-left: -40px;
+    }
+
+    .answers .row > *
+    {
+        width: calc(33.333% - 40px);
+        margin-bottom: 40px;
+        margin-left: 40px;
+    }
+
+
+    .answers .item .name
+    {
+        font-size: 20px;
+    }
+
+
+
+    /*----------
+        Team
+    ----------*/
+    .team
+    {
+        padding-top: 80px;
+    }
+
+
+    .team .data img
+    {
+        transform: none;
+    }
+
+
+
+    /*------------
+        Prices
+    ------------*/
+    .prices .row
+    {
+        width: 600px;
+    }
+
+    .prices .row > *
+    {
+        width: 230px;
+    }
+
+
+    .prices .label
+    {
+        font-size: 22px;
+    }
+
+
+    .prices .val
+    {
+        font-size: 36px;
+        line-height: 100%;
+
+        padding: 12px 20px;
+    }
+
+    .prices .val:after
+    {
+        right: -23px;
+
+        width: 45px;
+        height: 45px;
+        margin-top: -22px;
+    }
+
+
+
+    /*-----------------
+        Person info
+    -----------------*/
+    .person_info .links
+    {
+        font-size: 26px;
+
+        margin-bottom: 80px;
+    }
+
+
+    .person_info .links .btn
+    {
+        margin: 0 20px;
+    }
+
+
+
+    .person_info .person
+    {
+        width: 360px;
+    }
+
+
+    .person_info .person .info
+    {
+        font-size: 22px;
+    }
+
+
+    .person_info .person .prev_link,
+    .person_info .person .next_link
+    {
+        width: 60px;
+        height: 60px;
+    }
+
+    .person_info .person .prev_link .icon,
+    .person_info .person .next_link .icon
+    {
+        width: 18px;
+        height: 30px;
+    }
+
+
+
+    /*---------------
+        Work info
+    ---------------*/
+    .work_info .slider
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .work_info .slider .thumbs
+    {
+        margin-top: 40px;
+    }
+
+
+
+    .work_info .bg
+    {
+        padding: 88px 26px 48px;
+    }
+
+    .work_info .bg > * + *
+    {
+        margin-top: 88px;
+    }
+
+
+
+    .work_info .features
+    {
+        width: 800px;
+    }
+
+
+    .work_info .features .title
+    {
+        font-size: 48px;
+    }
+
+
+    .work_info .features .desc
+    {
+        font-size: 22px;
+
+        margin-bottom: 16px;
+    }
+
+
+    .work_info .features .item
+    {
+        font-size: 26px;
+    }
+
+
+    .work_info .features .item .label
+    {
+        width: 300px;
+        padding: 16px 24px;
+    }
+
+
+    .work_info .features .item .val
+    {
+        width: calc(100% - 300px);
+        padding: 16px 24px 16px 0;
+    }
+
+
+
+    .work_info .quot
+    {
+        font-size: 48px;
+
+        width: 672px;
+        margin-top: 88px;
+        padding: 96px 0;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .menu
+    {
+        font-size: 20px;
+
+        margin-bottom: 40px;
+    }
+
+    footer .menu > * + *
+    {
+        margin-left: 64px;
+    }
+
+
+
+
+    footer .location .address
+    {
+        font-size: 22px;
+    }
+
+    footer .location .name
+    {
+        margin-top: 8px;
+    }
+
+
+
+    footer .phone
+    {
+        font-size: 22px;
+    }
+
+
+    footer .socials
+    {
+        margin-left: 28px;
+    }
+}

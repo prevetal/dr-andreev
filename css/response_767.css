@@ -1,0 +1,461 @@
+@media print,
+(max-width: 767px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 14px;
+        --font_size_title: 52px;
+    }
+
+
+
+    .block
+    {
+        margin-bottom: 72px;
+    }
+
+
+
+    /*--------------
+        BG light
+    --------------*/
+    .bg_light
+    {
+        padding-top: 72px;
+    }
+
+
+
+    /*------------
+        Cookie
+    ------------*/
+    .cookie
+    {
+        font-size: 13px;
+        line-height: 19px;
+
+        padding: 12px;
+    }
+
+
+    .cookie .text
+    {
+        width: calc(100% - 136px);
+    }
+
+
+    .cookie .btn
+    {
+        margin-left: 20px;
+    }
+
+
+
+    /*--------------
+        All link
+    --------------*/
+    .all_link
+    {
+        margin-top: 40px;
+    }
+
+
+    .all_link a
+    {
+        font-size: 20px;
+    }
+
+
+
+    /*-----------------
+        Mob. header
+    -----------------*/
+    .mob_header
+    {
+        padding: 16px 0;
+    }
+
+
+    .mob_header .phone a
+    {
+        font-size: 19px;
+        line-height: 25px;
+    }
+
+
+    .mob_header .socials,
+    .mob_header .mob_menu_btn
+    {
+        margin-left: 28px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_title
+    {
+        font-size: 60px;
+
+        padding: 0;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .cont
+    {
+        min-height: 400px;
+        padding-top: 100px;
+        padding-bottom: 60px;
+    }
+
+
+
+    /*-------------
+        Results
+    -------------*/
+    .results .categories
+    {
+        font-size: 18px;
+    }
+
+
+
+    .results .filter
+    {
+        font-size: 18px;
+
+        margin-bottom: 20px;
+    }
+
+    .results .filter .icon
+    {
+        width: 20px;
+        height: 17px;
+    }
+
+
+
+    .results .wheelSlider-container
+    {
+        width: 240px;
+    }
+
+
+
+    .results .row
+    {
+        margin-bottom: -20px;
+        margin-left: -20px;
+    }
+
+    .results .row > *
+    {
+        width: calc(50% - 20px);
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+
+
+    /*-------------
+        Answers
+    -------------*/
+    .answers .swiper-slide
+    {
+        width: 240px;
+    }
+
+
+    .answers .row
+    {
+        margin-bottom: -20px;
+        margin-left: -20px;
+    }
+
+    .answers .row > *
+    {
+        width: calc(50% - 20px);
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+
+    .answers .item .name
+    {
+        font-size: 17px;
+    }
+
+
+
+    /*----------
+        Team
+    ----------*/
+    .team
+    {
+        padding-top: 40px;
+    }
+
+
+    .team .person
+    {
+        font-size: 10px;
+        line-height: 14px;
+
+        padding: 4px 8px;
+    }
+
+    .team .person1,
+    .team .person3,
+    .team .person5
+    {
+        top: 65.43%;
+    }
+
+    .team .person2
+    {
+        top: 45.075%;
+    }
+
+    .team .person3
+    {
+        left: 41.161%;
+    }
+
+
+
+    /*------------
+        Prices
+    ------------*/
+    .prices .row
+    {
+        width: 400px;
+    }
+
+    .prices .row > *
+    {
+        width: 172px;
+    }
+
+
+    .prices .label
+    {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+
+    .prices .val
+    {
+        font-size: 24px;
+    }
+
+    .prices .val:after
+    {
+        right: -18px;
+
+        width: 36px;
+        height: 36px;
+        margin-top: -18px;
+    }
+
+
+
+    /*-----------------
+        Person info
+    -----------------*/
+    .person_info .links
+    {
+        font-size: 18px;
+
+        display: block;
+        overflow: auto;
+
+        width: calc(100% + 26px);
+        margin: 0 -13px 40px;
+        padding: 0 13px;
+
+        white-space: nowrap;
+
+        scrollbar-color: transparent transparent !important;
+        scrollbar-width: thin !important;
+    }
+
+    .person_info .links::-webkit-scrollbar
+    {
+        width: 0 !important;
+        height: 0 !important;
+
+        background-color: transparent !important;
+    }
+
+    .person_info .links::-webkit-scrollbar-thumb
+    {
+        background-color: transparent !important;
+    }
+
+
+    .person_info .links .btn
+    {
+        display: inline-block;
+
+        max-width: none;
+        margin: 0;
+
+        vertical-align: top;
+    }
+
+    .person_info .links .btn + .btn
+    {
+        margin-left: 20px;
+    }
+
+
+    .person_info .person .info
+    {
+        padding: 20px;
+    }
+
+
+    .person_info .person .prev_link
+    {
+        margin-right: 24px;
+    }
+
+    .person_info .person .next_link
+    {
+        margin-left: 24px;
+    }
+
+
+
+    /*---------------
+        Work info
+    ---------------*/
+    .work_info .slider .thumbs
+    {
+        margin-top: 26px;
+    }
+
+    .work_info .slider .thumbs .image img
+    {
+        height: 140px;
+    }
+
+    .work_info .slider .thumbs .image .icon
+    {
+        width: 40px;
+        height: 40px;
+    }
+
+
+
+    .work_info .bg > * + *
+    {
+        margin-top: 60px;
+    }
+
+
+
+    .work_info .features .title
+    {
+        font-size: 32px;
+    }
+
+
+    .work_info .features .desc
+    {
+        font-size: 17px;
+    }
+
+
+    .work_info .features .item
+    {
+        font-size: 18px;
+    }
+
+
+    .work_info .features .item .label
+    {
+        width: 200px;
+        padding: 13px 20px;
+    }
+
+
+    .work_info .features .item .val
+    {
+        width: calc(100% - 200px);
+        padding: 13px 20px 13px 0;
+    }
+
+
+
+    .work_info .gallery .row > *
+    {
+        width: calc(33.333% - 13px);
+    }
+
+
+
+    .work_info .quot
+    {
+        font-size: 32px;
+
+        width: 100%;
+        margin-top: 68px;
+        padding: 60px 0;
+    }
+
+
+    .work_info .quot:before,
+    .work_info .quot:after
+    {
+        width: 40px;
+        height: 40px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .menu
+    {
+        font-size: 16px;
+
+        margin-bottom: 32px;
+
+        justify-content: space-between;
+    }
+
+    footer .menu > * + *
+    {
+        margin-left: 0;
+    }
+
+
+    footer .location
+    {
+        width: 100%;
+    }
+
+    footer .location .address
+    {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+
+    footer .contacts
+    {
+        width: 100%;
+        margin-top: 32px;
+    }
+}
