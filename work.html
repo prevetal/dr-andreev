@@ -21,6 +21,9 @@
 		<meta name="msapplication-TileColor" content="#0A64A4">
 		<meta name="theme-color" content="#0A64A4">
 
+		<link rel="preload" href="/videos/answer_video.mp4" as="video" type="video/mp4" />
+		<link rel="preload" href="/videos/answer_video.webm" as="video" type="video/webm" />
+
 		<!-- Подключение файлов стилей -->
 		<link rel="stylesheet" href="css/swiper-bundle.min.css" async>
 		<link rel="stylesheet" href="css/swiper.css" async>
@@ -135,7 +138,10 @@
 
 										<div class="swiper-slide">
 											<div class="image">
-												<video muted preload loop playsinline controls data-src="/videos/answer_video.mp4" class="swiper-lazy"></video>
+												<video autoplay muted preload loop playsinline class="lazyload">
+													<!--source src="/videos/answer_video.webm" type="video/webm"-->
+													<source data-src="/videos/answer_video.mp4" type="video/mp4">
+												</video>
 											</div>
 										</div>
 
@@ -153,7 +159,10 @@
 
 										<div class="swiper-slide">
 											<div class="image">
-												<video muted preload loop playsinline controls data-src="/videos/answer_video.mp4" class="swiper-lazy"></video>
+												<video autoplay muted preload loop playsinline class="lazyload">
+													<!--source src="/videos/answer_video.webm" type="video/webm"-->
+													<source data-src="/videos/answer_video.mp4" type="video/mp4">
+												</video>
 											</div>
 										</div>
 
@@ -171,7 +180,10 @@
 
 										<div class="swiper-slide">
 											<div class="image">
-												<video muted preload loop playsinline controls data-src="/videos/answer_video.mp4" class="swiper-lazy"></video>
+												<video autoplay muted preload loop playsinline class="lazyload">
+													<!--source src="/videos/answer_video.webm" type="video/webm"-->
+													<source data-src="/videos/answer_video.mp4" type="video/mp4">
+												</video>
 											</div>
 										</div>
 									</div>

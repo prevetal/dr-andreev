@@ -21,6 +21,9 @@
 		<meta name="msapplication-TileColor" content="#0A64A4">
 		<meta name="theme-color" content="#0A64A4">
 
+		<link rel="preload" href="/videos/answer_video.mp4" as="video" type="video/mp4" />
+		<link rel="preload" href="/videos/answer_video.webm" as="video" type="video/webm" />
+
 		<!-- Подключение файлов стилей -->
 		<link rel="stylesheet" href="css/swiper-bundle.min.css" async>
 		<link rel="stylesheet" href="css/swiper.css" async>
@@ -109,7 +112,10 @@
 
 					<img data-src="images/bg_first_section.jpg" alt="" class="bg lazyload">
 
-					<video autoplay muted preload loop playsinline src="/videos/answer_video.mp4"></video>
+					<video autoplay muted preload loop playsinline class="lazyload">
+						<!--source src="/videos/answer_video.webm" type="video/webm"-->
+						<source data-src="/videos/answer_video.mp4" type="video/mp4">
+					</video>
 				</section>
 
 
@@ -133,61 +139,91 @@
 							<div class="wheelSlider-container">
 								<div class="wheelSlider-item slide">
 									<a href="/videos/answer_video.mp4" data-fancybox class="item">
-										<video autoplay muted preload loop playsinline src="/videos/answer_video.mp4"></video>
+										<video autoplay muted preload loop playsinline class="lazyload">
+											<!--source src="/videos/answer_video.webm" type="video/webm"-->
+											<source data-src="/videos/answer_video.mp4" type="video/mp4">
+										</video>
 									</a>
 								</div>
 
 								<div class="wheelSlider-item slide">
 									<a href="/videos/answer_video.mp4" data-fancybox class="item">
-										<video autoplay muted preload loop playsinline src="/videos/answer_video.mp4"></video>
+										<video autoplay muted preload loop playsinline class="lazyload">
+											<!--source src="/videos/answer_video.webm" type="video/webm"-->
+											<source data-src="/videos/answer_video.mp4" type="video/mp4">
+										</video>
 									</a>
 								</div>
 
 								<div class="wheelSlider-item slide">
 									<a href="/videos/answer_video.mp4" data-fancybox class="item">
-										<video autoplay muted preload loop playsinline src="/videos/answer_video.mp4"></video>
+										<video autoplay muted preload loop playsinline class="lazyload">
+											<!--source src="/videos/answer_video.webm" type="video/webm"-->
+											<source data-src="/videos/answer_video.mp4" type="video/mp4">
+										</video>
 									</a>
 								</div>
 
 								<div class="wheelSlider-item slide">
 									<a href="/videos/answer_video.mp4" data-fancybox class="item">
-										<video autoplay muted preload loop playsinline src="/videos/answer_video.mp4"></video>
+										<video autoplay muted preload loop playsinline class="lazyload">
+											<!--source src="/videos/answer_video.webm" type="video/webm"-->
+											<source data-src="/videos/answer_video.mp4" type="video/mp4">
+										</video>
 									</a>
 								</div>
 
 								<div class="wheelSlider-item slide">
 									<a href="/videos/answer_video.mp4" data-fancybox class="item">
-										<video autoplay muted preload loop playsinline src="/videos/answer_video.mp4"></video>
+										<video autoplay muted preload loop playsinline class="lazyload">
+											<!--source src="/videos/answer_video.webm" type="video/webm"-->
+											<source data-src="/videos/answer_video.mp4" type="video/mp4">
+										</video>
 									</a>
 								</div>
 
 								<div class="wheelSlider-item slide">
 									<a href="/videos/answer_video.mp4" data-fancybox class="item">
-										<video autoplay muted preload loop playsinline src="/videos/answer_video.mp4"></video>
+										<video autoplay muted preload loop playsinline class="lazyload">
+											<!--source src="/videos/answer_video.webm" type="video/webm"-->
+											<source data-src="/videos/answer_video.mp4" type="video/mp4">
+										</video>
 									</a>
 								</div>
 
 								<div class="wheelSlider-item slide">
 									<a href="/videos/answer_video.mp4" data-fancybox class="item">
-										<video autoplay muted preload loop playsinline src="/videos/answer_video.mp4"></video>
+										<video autoplay muted preload loop playsinline class="lazyload">
+											<!--source src="/videos/answer_video.webm" type="video/webm"-->
+											<source data-src="/videos/answer_video.mp4" type="video/mp4">
+										</video>
 									</a>
 								</div>
 
 								<div class="wheelSlider-item slide">
 									<a href="/videos/answer_video.mp4" data-fancybox class="item">
-										<video autoplay muted preload loop playsinline src="/videos/answer_video.mp4"></video>
+										<video autoplay muted preload loop playsinline class="lazyload">
+											<!--source src="/videos/answer_video.webm" type="video/webm"-->
+											<source data-src="/videos/answer_video.mp4" type="video/mp4">
+										</video>
 									</a>
 								</div>
 
 								<div class="wheelSlider-item slide">
 									<a href="/videos/answer_video.mp4" data-fancybox class="item">
-										<video autoplay muted preload loop playsinline src="/videos/answer_video.mp4"></video>
+										<video autoplay muted preload loop playsinline class="lazyload">
+											<!--source src="/videos/answer_video.webm" type="video/webm"-->
+											<source data-src="/videos/answer_video.mp4" type="video/mp4">
+										</video>
 									</a>
 								</div>
 
 								<div class="wheelSlider-item slide">
 									<a href="/videos/answer_video.mp4" data-fancybox class="item">
-										<video autoplay muted preload loop playsinline src="/videos/answer_video.mp4"></video>
+										<video autoplay muted preload loop playsinline class="lazyload">
+											<!--source src="/videos/answer_video.webm" type="video/webm"-->
+											<source data-src="/videos/answer_video.mp4" type="video/mp4">
+										</video>
 									</a>
 								</div>
 							</div>
@@ -290,35 +326,55 @@
 								<div class="swiper-slide">
 									<a href="/videos/answer_video.mp4" data-fancybox class="item">
 										<div class="name">Зачем увеличивать грудь, если ты мужчина?</div>
-										<video autoplay muted preload loop playsinline src="/videos/answer_video.mp4"></video>
+
+										<video autoplay muted preload loop playsinline class="lazyload">
+											<!--source src="/videos/answer_video.webm" type="video/webm"-->
+											<source data-src="/videos/answer_video.mp4" type="video/mp4">
+										</video>
 									</a>
 								</div>
 
 								<div class="swiper-slide">
 									<a href="/videos/answer_video.mp4" data-fancybox class="item">
 										<div class="name">Как выбрать импланты?</div>
-										<video autoplay muted preload loop playsinline src="/videos/answer_video.mp4"></video>
+
+										<video autoplay muted preload loop playsinline class="lazyload">
+											<!--source src="/videos/answer_video.webm" type="video/webm"-->
+											<source data-src="/videos/answer_video.mp4" type="video/mp4">
+										</video>
 									</a>
 								</div>
 
 								<div class="swiper-slide">
 									<a href="/videos/answer_video.mp4" data-fancybox class="item">
 										<div class="name">Насколько болезненно увеличение груди?</div>
-										<video autoplay muted preload loop playsinline src="/videos/answer_video.mp4"></video>
+
+										<video autoplay muted preload loop playsinline class="lazyload">
+											<!--source src="/videos/answer_video.webm" type="video/webm"-->
+											<source data-src="/videos/answer_video.mp4" type="video/mp4">
+										</video>
 									</a>
 								</div>
 
 								<div class="swiper-slide">
 									<a href="/videos/answer_video.mp4" data-fancybox class="item">
 										<div class="name">Насколько болезненно увеличение груди?</div>
-										<video autoplay muted preload loop playsinline src="/videos/answer_video.mp4"></video>
+
+										<video autoplay muted preload loop playsinline class="lazyload">
+											<!--source src="/videos/answer_video.webm" type="video/webm"-->
+											<source data-src="/videos/answer_video.mp4" type="video/mp4">
+										</video>
 									</a>
 								</div>
 
 								<div class="swiper-slide">
 									<a href="/videos/answer_video.mp4" data-fancybox class="item">
 										<div class="name">Мужчина должен?</div>
-										<video autoplay muted preload loop playsinline src="/videos/answer_video.mp4"></video>
+
+										<video autoplay muted preload loop playsinline class="lazyload">
+											<!--source src="/videos/answer_video.webm" type="video/webm"-->
+											<source data-src="/videos/answer_video.mp4" type="video/mp4">
+										</video>
 									</a>
 								</div>
 							</div>
