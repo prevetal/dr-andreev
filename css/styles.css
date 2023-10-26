@@ -1249,7 +1249,8 @@ header .order_btn
 }
 
 
-.results .item video
+.results .item video,
+.results .item img
 {
     position: absolute;
     z-index: 1;
