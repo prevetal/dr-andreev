@@ -252,6 +252,44 @@ document.addEventListener('DOMContentLoaded', function () {
 			type: 'inline'
 		}])
 	})
+
+
+	// Видео в первом блоке
+	document.querySelector('.first_section .video1').addEventListener('ended', e => {
+		let nextVideo = document.querySelector('.first_section .video2')
+
+		e.target.style.display = 'none'
+
+		nextVideo.style.display = 'block'
+		nextVideo.play()
+	}, false)
+
+	document.querySelector('.first_section .video2').addEventListener('ended', e => {
+		let nextVideo = document.querySelector('.first_section .video3')
+
+		e.target.style.display = 'none'
+
+		nextVideo.style.display = 'block'
+		nextVideo.play()
+	}, false)
+
+	document.querySelector('.first_section .video3').addEventListener('ended', e => {
+		let nextVideo = document.querySelector('.first_section .video4')
+
+		e.target.style.display = 'none'
+
+		nextVideo.style.display = 'block'
+		nextVideo.play()
+	}, false)
+
+	document.querySelector('.first_section .video4').addEventListener('ended', e => {
+		let nextVideo = document.querySelector('.first_section .video1')
+
+		e.target.style.display = 'none'
+
+		nextVideo.style.display = 'block'
+		nextVideo.play()
+	}, false)
 })
 
 

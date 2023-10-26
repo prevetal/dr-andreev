@@ -1082,6 +1082,8 @@ header .order_btn
 .first_section video
 {
     z-index: 2;
+
+    display: none;
 }
 
 
